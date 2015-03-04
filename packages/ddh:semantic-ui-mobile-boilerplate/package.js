@@ -2,19 +2,20 @@ Package.describe({
   name: 'ddh:semantic-ui-mobile-boilerplate',
   summary: 'Basic setup of a simple mobile layout and iron:router routings.',
   description: 'Semantic-UI mobile boilerplate.',
-  version: '0.1.0'
+  version: '0.1.0',
+  git: 'https://github.com/ddresch/meteor-semantic-ui-boilerplate'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.0');
+  api.versionsFrom('1.0.2.1');
 
   api.use([
     'templating',
-    'nooitaf:semantic-ui'
+    'nooitaf:semantic-ui@1.10.4'
   ], 'client');
 
   api.use([    
-    'iron:router'
+    'iron:router@1.0.5'
   ], ['client','server']);
 
   api.imply([
