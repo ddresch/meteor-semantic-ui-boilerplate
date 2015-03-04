@@ -1,0 +1,23 @@
+<template name="mobileLayout">
+  <div class="ui inverted labeled icon left inline vertical sidebar menu">
+    {{#each sidebarLinks}}
+      <a href="{{pathFor routeName}}" class="item">
+        <i class="{{icon}} icon"></i> {{label}}
+      </a>
+    {{/each}}    
+  </div>
+
+  <div class="ui fixed inverted main menu">
+    <div class="container">
+      <a class="launch item">
+        <i class="content icon"></i>Menu
+      </a>      
+    </div>
+  </div>
+
+  <div class="pusher">
+    <div class="ui basic bottom attached segment">
+      {{>yield}}       
+    </div>
+  </div>
+</template>
