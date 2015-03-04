@@ -10,14 +10,14 @@ This is a pretty simple setup to get started with semantic-ui as a GUI framework
 
 If you want to setup your sidebar the packages introduces two new parameters `label` and `icon` you can use within your iron:router options object.
 
-  Router.route('/', {
-    template: 'startpage',
-    label: 'Home', 
-    icon: 'home'
-  });
+      Router.route('/', {
+          template: 'startpage',
+          label: 'Home', 
+          icon: 'home'
+        });
 
-  Router.route('search', {
-    label: 'Search', 
-    icon: 'search'
-  });
+      Router.route('search', {
+          label: 'Search', 
+          icon: 'search'
+      });
 
