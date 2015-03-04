@@ -4,7 +4,7 @@ This is a pretty simple setup to get started with semantic-ui as a GUI framework
 
 ## Install
 
-  meteor add ddh:semantic-ui-mobile-boilerplate
+      meteor add ddh:semantic-ui-mobile-boilerplate
 
 ## How to use
 
